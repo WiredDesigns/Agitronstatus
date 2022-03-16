@@ -22,7 +22,7 @@ function Application() {
                 <header className="app-header">
                     <a href={config.website} className="title"><span>{config.title}</span> Status</a>
                     <div className="feedback">
-                        <a href={config.twitterURL}>{config.twitterHandle}</a>
+                        <a href={config.twitterURL} target="_blank">{config.twitterHandle}</a>
                     </div>
                 </header>
                 {myMonitors.map((monitor, key) => (
@@ -30,7 +30,7 @@ function Application() {
                 ))}
             </div>
             <div className="footer">
-                *All the status is coming from uptimerobot API.
+                &copy; Copyright 2022 by <a href="https://wireddesign.art" target="_blank">wireddesign.art</a>
             </div>
         </>
     );

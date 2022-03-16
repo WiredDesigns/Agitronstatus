@@ -73,9 +73,7 @@ function Monitor({ data }) {
         <div className="monitor">
             <div className="head">
                 <h2>{friendly_name}</h2>
-                <small>
-                    <a href={url}>{url}</a>
-                </small>
+
             </div>
             <div className="stats-container">
                 <div className="response-chart">

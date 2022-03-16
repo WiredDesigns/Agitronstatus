@@ -1,11 +1,11 @@
 export const config = {
-    ENDPOINT: "https://v1.nocodeapi.com/betauser/uptime/dHmQOXeWbdNuJsII?monitors=784130459-784130462",
+    ENDPOINT: "https://v1.nocodeapi.com/wireddesigns/uptime/qDtFjtVItWBoDzFN?monitors=790307971",
 
-    title: "NoCodeAPI",
+    title: "Agitron",
 
-    website: "https://nocodeapi.com",
+    website: "https://wireddesign.art",
 
-    twitterHandle: "@nocodeapi",
+    twitterHandle: "WiredDesign",
     
-    twitterURL: "https://twitter.com/nocodeapi"
+    twitterURL: "https://youtube.com/WiredDesign"
 }
