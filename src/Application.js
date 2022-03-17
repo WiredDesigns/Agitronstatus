@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios'
-import {config} from './env'
+import { config } from './env'
 
 import Monitor from './Monitor'
 import logo from './images/logo_round.png';
@@ -14,7 +14,7 @@ function Application() {
         axios.get(config.ENDPOINT).then(result => {
             setMyMonitors(result.data.monitors)
         })
-    },[])
+    }, [])
 
     return (
         <>
@@ -26,7 +26,7 @@ function Application() {
                     </div>
                 </header>
                 {myMonitors.map((monitor, key) => (
-                    <Monitor data={monitor} key={key}/>
+                    <Monitor data={monitor} key={key} />
                 ))}
             </div>
             <div className="footer">
